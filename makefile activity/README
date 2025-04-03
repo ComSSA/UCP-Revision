@@ -1,0 +1,6 @@
+# Details
+I made this on my 14 inch M3 macbook pro <3 with clang, so watch out if you're using gcc or some other compiler
+run make to compile into object and exec files
+nothing is gonna happen when you run the exec because all the c and header files are empty
+
+The borderless flag is a "C flag" not a compiler flag, so it will change how the c files will compile not the makefile setup

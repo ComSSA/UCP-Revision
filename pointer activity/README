@@ -1,0 +1,22 @@
+# Pointer Activity
+Write a method in C that calculates:
+The quantity of pizza required for events
+The total cost of ordering the pizza
+
+Its parameters are:
+A pointer for the total number of pizzas.
+A pointer for the total cost of pizza. 
+The number of attendees
+
+Assume:
+Each attendee eats 3 slices of pizza
+Each pizza has 8 slices
+Each pizza is 10 dollars
+
+# Details
+This is not a maths activity!!!
+You can try to make a mathematical solution, however we are doing a coding unit
+Try to push the students to focus on the programming of the unit rather than getting stuck on the maths.
+I compiled this with clang on my 14 inch Macbook M3 pro 8GB ram <3333
+I didn't use C89 though because of my inline comments so take out ansi and pedantic flags
+gcc -Wall -Werror pizza.c -o pizza
